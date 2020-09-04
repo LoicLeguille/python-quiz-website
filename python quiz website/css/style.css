@@ -1,0 +1,141 @@
+header {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+.navbar-brand {
+  max-width: 50%;
+  height: auto;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #808080;
+}
+.nav-item {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover,
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+  background: #808080;
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  padding: 5px 15px;
+}
+.banner {
+  position: relative;
+  background: url('background.png');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffffff;
+  padding: 250px 0 200px;
+}
+.banner h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.8em;
+  font-weight: 1000;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner p {
+  margin: 1em 0 0;
+  padding: 0;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #fff;
+}
+.btnD1 {
+  display: inline-block;;
+  margin: 1em 0 0;
+  background: #ff2670;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 800;
+}
+.btnD1:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-dark .navbar-toggler {
+  border: none;
+  color: #7f7f7f;
+  border: 2px solid #7f7f7f;
+  border-radius: 0;
+  outline: none;
+}
+.navbar-collapse {
+  background: #ff000000;
+}
+.contact-form {
+  background: rgba(0, 0, 0, .6);
+  color: white;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 3px grey;
+}
+.btn-primary {
+  width: 50%
+  letter-spacing: 2px;
+  background: transparent;
+  transition: all 0.5s ease-in-out;
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+.grid {
+    margin: 0 auto;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+}
+#score {
+    text-align: center;
+    font-size: 30px;
+}
+.grid #question {
+    font-size: 30px;
+}
+.buttons {
+    margin-top: 30px;
+}
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #778897;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #57636e;
+}
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+#progress {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 200px 0;
+  }
+  .banner h2 {
+    font-size: 1.8em;
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Python Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html" title="Python"><img class="navbar-brand" src="img/python.png" alt=Python></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quiz.html">Quiz</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="info.html">Info</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="container">
+        <h2>Contact form</h2>
+        <hr>
+
+        <div class="row">
+
+          <div class="col-md-5">
+            <br>
+            <p><i class="fa fa-map-marker"></i> &nbsp;&nbsp; 3 Place André Leroy, 49100 Angers</p>
+            <p><i class="fa fa-envelope"></i> &nbsp;&nbsp; Email: comm@uco.fr</p>
+            <p><i class="fa fa-phone"></i> &nbsp;&nbsp; Phone: 02 41 81 66 00</p>
+          </div>
+
+          <div class="col-md-1"></div>
+
+          <br><br><br><br>
+
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Last Name" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <input type="text" placeholder="First Name" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <input type="number" placeholder="Phone" class="form-control">
+              </div>
+              <br>
+              <div class="form-group">
+                <input type="email" placeholder="Email" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <input type="text" placeholder="Object" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Message" rows="7"></textarea>
+              </div>
+              <br>
+              <div class="form-group">
+                <button class="btn btn-primary btn-block">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
